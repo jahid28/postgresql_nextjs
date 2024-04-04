@@ -2,10 +2,10 @@ import { Client } from "pg";
 
 const client = new Client({
   user: 'postgres',
-  host: 'database-2.cfc6wmay0j3n.us-east-1.rds.amazonaws.com',
+  host: '',
   database: 'db1',
   // database: 'postgredb1',
-  password: 'Jahidkhan786',
+  password: '',
   port: 5432, // Default PostgreSQL port
 });
 
